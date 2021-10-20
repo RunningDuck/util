@@ -52,7 +52,7 @@ sys_user表中，设计有一列为sex（性别），这一列保存的是是1�
 | typeValue        | 字典类型的值                               | 如果有typeFieldName，则必须  |
 | statusFileName   | 字典表中的字典状态字段名称                 | 否                           |
 | statusValue      | 字典表中状态的值                           | 如果有statusFileName，则必须 |
-| toField          | 翻译后放在实体类的字段，为空则放在代码字段 | 否                           |
+| toField          | 翻译后放在实体类的字段，为空则放在代码字段（放代码字段时需保证翻译前后的值类型一致） | 否                           |
 
 #### 自定义翻译说明
 

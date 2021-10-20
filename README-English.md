@@ -103,4 +103,4 @@ public class DictConfig implements DictCustomConfig {
 }
 ```
 
-**注意：**实现`DictCustomConfig`接口的类必须要使用`@Configuration`注解修饰
+**注意：** 实现`DictCustomConfig`接口的类必须要使用`@Configuration`注解修饰
